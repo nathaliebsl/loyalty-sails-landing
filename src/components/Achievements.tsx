@@ -37,7 +37,7 @@ const Achievements = () => {
     <section id="achievements" className="py-24 bg-secondary">
            //<div className="text-center mb-12">
           <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-4">
-           TEAM
+           LOYALTY TEAM
           </h2>
           <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
             Recent <span className="text-gradient-ocean">Stats</span>
@@ -58,7 +58,7 @@ const Achievements = () => {
           ))}
         </div>
 
-        {/* Recent Results */} 
+        {/* Recent Results */} {/*
           <div className="text-center mb-12">
           <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-4">
             Track Record
@@ -67,7 +67,7 @@ const Achievements = () => {
             Recent <span className="text-gradient-ocean">Results</span>
           </h3>
         </div>
-{/*
+
         <div className="max-w-4xl mx-auto">
           {achievements.map((achievement, index) => (
             <div
