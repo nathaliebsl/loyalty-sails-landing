@@ -50,7 +50,7 @@ const Achievements = () => {
           ))}
         </div>
 
-        {/* Recent Results */} {/*
+        {/* Recent Results */} 
           <div className="text-center mb-12">
           <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-4">
             Track Record
@@ -59,7 +59,7 @@ const Achievements = () => {
             Recent <span className="text-gradient-ocean">Results</span>
           </h3>
         </div>
-
+{/*
         <div className="max-w-4xl mx-auto">
           {achievements.map((achievement, index) => (
             <div
@@ -86,9 +86,9 @@ const Achievements = () => {
                   {achievement.result}
                 </span> 
               </div>
-            </div>
+            </div> */}
           ))} 
-        </div> */}
+        </div> 
       </div>
     </section>
   );
