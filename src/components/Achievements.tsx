@@ -87,8 +87,8 @@ const Achievements = () => {
                 </span> 
               </div>
             </div>
-          ))} */}
-        </div>
+          ))} 
+        </div> */}
       </div>
     </section>
   );
