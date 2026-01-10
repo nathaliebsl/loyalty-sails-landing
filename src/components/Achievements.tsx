@@ -84,7 +84,7 @@ const Achievements = () => {
                     : "bg-muted text-muted-foreground"
                 }`}>
                   {achievement.result}
-                </span>
+                </span> */}
               </div>
             </div>
           ))}
@@ -93,5 +93,4 @@ const Achievements = () => {
     </section>
   );
 };
- */}
 export default Achievements;
