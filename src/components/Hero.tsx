@@ -27,7 +27,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight mb-6 animate-slide-up">
           <span className="text-foreground">Racing with</span>
           <br />
-          <span className="text-gradient-ocean italic">Unwavering</span> <span className="text-gradient-ocean">Loyalty</span>
+          <span className="text-gradient-ocean">Unwavering Loyalty</span>
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-slide-up" style={{ animationDelay: "0.2s" }}>
