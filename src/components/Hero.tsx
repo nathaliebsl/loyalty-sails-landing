@@ -9,7 +9,7 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Sailing racing action"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-fit:cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
       </div>
