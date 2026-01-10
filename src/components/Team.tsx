@@ -16,7 +16,7 @@ const Team = () => {
             The Crew
           </h2>
           <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight mb-6">
-            Meet the <span className="text-gradient-ocean italic">Team</span>
+            Meet the <span className="text-gradient-ocean">Team</span>
           </h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Our world-class crew brings together decades of experience, passion, and an unwavering commitment to excellence.
