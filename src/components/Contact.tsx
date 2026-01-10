@@ -9,7 +9,7 @@ const Contact = () => {
             Get in Touch
           </h2>
           <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight mb-6">
-            Join the <span className="text-gradient-ocean italic">Journey</span>
+            Join the <span className="text-gradient-ocean">Journey</span>
           </h3>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
             Interested in sponsorship opportunities, joining our crew, or following our racing adventures? We'd love to hear from you.
