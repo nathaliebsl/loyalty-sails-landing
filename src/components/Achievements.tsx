@@ -34,6 +34,15 @@ const Achievements = () => {
   ];
 
   return (
+        <div className="text-center mb-12">
+          <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-4">
+           TEAM
+          </h2>
+          <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
+            Recent <span className="text-gradient-ocean">Stats</span>
+          </h3>
+        </div>
+    
     <section id="achievements" className="py-24 bg-secondary">
       <div className="container mx-auto px-4">
         {/* Stats */}
