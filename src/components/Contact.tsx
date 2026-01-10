@@ -33,7 +33,7 @@ const Contact = () => {
           <div className="flex justify-center gap-6 mb-12">
             {/* INSTAGRAM */}
             <a
-              href="http://instagram.com/_u/{loyaltysailing}/"
+              href="http://instagram.com/loyaltysailing/"
               className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
             >
               <Instagram className="w-5 h-5" />
