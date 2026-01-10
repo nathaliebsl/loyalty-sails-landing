@@ -31,18 +31,21 @@ const Contact = () => {
 
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-12">
+            {/* INSTAGRAM */}
             <a
-              href="#"
+              href="@loyaltysailing"
               className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
             >
               <Instagram className="w-5 h-5" />
             </a>
+            {/* TWITTER */}
             <a
               href="#"
               className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
             >
               <Twitter className="w-5 h-5" />
             </a>
+            {/* YOUTUBE */}
             <a
               href="#"
               className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
