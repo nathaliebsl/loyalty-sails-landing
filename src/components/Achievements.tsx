@@ -51,7 +51,7 @@ const Achievements = () => {
         </div>
 
         {/* Recent Results */}
-        <div className="text-center mb-12">
+        {/*  <div className="text-center mb-12">
           <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-4">
             Track Record
           </h2>
@@ -93,5 +93,5 @@ const Achievements = () => {
     </section>
   );
 };
-
+ */}
 export default Achievements;
