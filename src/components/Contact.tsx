@@ -38,14 +38,14 @@ const Contact = () => {
             >
               <Instagram className="w-5 h-5" />
             </a>
-            {/* TWITTER */}
+            {/* TWITTER */} {/*
             <a
               href="#"
               className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
             >
               <Twitter className="w-5 h-5" />
-            </a>
-            {/* YOUTUBE */}
+            </a> */}
+            {/* YOUTUBE */} {/* 
             <a
               href="#"
               className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
@@ -53,7 +53,7 @@ const Contact = () => {
               <Youtube className="w-5 h-5" />
             </a>
           </div>
-
+*/}
           {/* CTA */}
           <a
             href="mailto:team@loyaltysailing.com"
