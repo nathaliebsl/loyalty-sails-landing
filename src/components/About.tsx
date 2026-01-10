@@ -32,7 +32,7 @@ const About = () => {
             Our Mission
           </h2>
           <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight mb-6">
-            Born to <span className="text-gradient-ocean italic">Race</span>
+            Born to <span className="text-gradient-ocean">Race</span>
           </h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Loyalty Sailing Team represents the pinnacle of competitive sailing. Founded on principles of teamwork, precision, and relentless pursuit of victory, we push the limits of what's possible on the water.
