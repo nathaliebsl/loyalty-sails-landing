@@ -25,7 +25,7 @@ const Contact = () => {
             </a>
             <div className="flex items-center gap-3 text-muted-foreground">
               <MapPin className="w-5 h-5" />
-              <span>Mediterranean Sea</span>
+              <span>at the Sea</span>
             </div>
           </div>
 
@@ -51,9 +51,8 @@ const Contact = () => {
               className="w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
             >
               <Youtube className="w-5 h-5" />
-            </a>
+            </a> */}
           </div>
-*/}
           {/* CTA */}
           <a
             href="mailto:team@loyaltysailing.com"
