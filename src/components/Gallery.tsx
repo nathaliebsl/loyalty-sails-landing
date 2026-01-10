@@ -1,7 +1,7 @@
 import galleryRace1 from "@/assets/gallery-race-1.jpg";
 import gallerySunset from "@/assets/gallery-sunset.jpg";
 import galleryPrep from "@/assets/gallery-prep.jpg";
-import galleryAerial from "@/assets/gallery-aerial.jpg";
+import galleryAerial from "@/assets/gallery-aerial[L36].jpg";
 import galleryCelebration from "@/assets/gallery-celebration.jpg";
 import galleryRace2 from "@/assets/gallery-race-2.jpg";
 import { useState } from "react";
