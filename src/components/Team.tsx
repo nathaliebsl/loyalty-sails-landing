@@ -2,10 +2,10 @@ import { Anchor } from "lucide-react";
 
 const Team = () => {
   const teamMembers = [
-    { name: "Marcus Chen", role: "Skipper" },
-    { name: "Elena Rodriguez", role: "Tactician" },
-    { name: "James Wright", role: "Trimmer" },
-    { name: "Sofia Andersson", role: "Bowman" },
+    { name: "Alexandre Leal", role: "Skipper/Captain" },
+    { name: "André "Bochecha" Fonseca", role: "Tactician" },
+    { name: "Gabriel Ribeiro", role: "Trimmer" },
+    { name: "Isaque Soares", role: "Bowman" },
   ];
 
   return (
