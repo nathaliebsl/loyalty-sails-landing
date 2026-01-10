@@ -56,7 +56,7 @@ const Achievements = () => {
             Track Record
           </h2>
           <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
-            Recent <span className="text-gradient-ocean italic">Results</span>
+            Recent <span className="text-gradient-ocean">Results</span>
           </h3>
         </div>
 
