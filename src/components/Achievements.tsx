@@ -50,8 +50,8 @@ const Achievements = () => {
           ))}
         </div>
 
-        {/* Recent Results */}
-        {/*  <div className="text-center mb-12">
+        {/* Recent Results */} {/*
+          <div className="text-center mb-12">
           <h2 className="text-sm font-bold uppercase tracking-widest text-primary mb-4">
             Track Record
           </h2>
@@ -84,10 +84,10 @@ const Achievements = () => {
                     : "bg-muted text-muted-foreground"
                 }`}>
                   {achievement.result}
-                </span> */}
+                </span> 
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
