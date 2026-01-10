@@ -1,9 +1,9 @@
 const Achievements = () => {
   const stats = [
-    { value: "15+", label: "Race Victories" },
-    { value: "8", label: "Championships" },
+    { value: "50+", label: "Race Victories" },
+    { value: "10", label: "Championships" },
     { value: "12", label: "Team Members" },
-    { value: "2019", label: "Founded" },
+    { value: "2010", label: "Founded" },
   ];
 
   const achievements = [
