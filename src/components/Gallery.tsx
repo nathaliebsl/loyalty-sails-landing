@@ -11,27 +11,27 @@ const galleryImages = [
   {
     src: galleryRace1,
     title: "Full Speed Ahead",
-    category: "[C30] Loyalty 06",
+    category: "[SwanClub36] Loyalty 36",
   },
   {
     src: gallerySunset,
-    title: "Golden Hour Sail",
-    category: "[SwanClub36] Loyalty 36",
+    title: "Cutting Through Waves",
+    category: "[C30] Loyalty 06",
   },
   {
     src: galleryPrep,
     title: "Morning Preparations",
-    category: "[SwanClub36] Loyalty 36",
+    category: "[C30] Loyalty 06",
   },
   {
     src: galleryAerial,
     title: "Aerial View",
-    category: "[C30] Loyalty 06",
+    category: "[SwanClub36] Loyalty 36",
   },
   {
     src: galleryCelebration,
-    title: "Victory Celebration",
-    category: "Team Moments",
+    title: "Golden Hour Sail",
+    category: "[SwanClub36] Loyalty 36",
   },
   {
     src: galleryRace2,
