@@ -1,5 +1,5 @@
 import { Anchor } from "lucide-react";
-import  ASL  from "@/assets/ALEXLEAL.jpg";
+import { ASL }  from "@/assets/ALEXLEAL.jpg";
 
 const Team = () => {
   const teamMembers = [
