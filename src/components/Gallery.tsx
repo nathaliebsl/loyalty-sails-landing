@@ -16,12 +16,12 @@ const galleryImages = [
   {
     src: gallerySunset,
     title: "Golden Hour Sail",
-    category: "Behind the Scenes",
+    category: "[SwanClub36] Loyalty 36",
   },
   {
     src: galleryPrep,
     title: "Morning Preparations",
-    category: "Behind the Scenes",
+    category: "[SwanClub36] Loyalty 36",
   },
   {
     src: galleryAerial,
@@ -44,7 +44,7 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
   const [filter, setFilter] = useState<string>("All");
 
-  const categories = ["All", "[C30] Loyalty 06", "Behind the Scenes", "Team Moments"];
+  const categories = ["All", "[C30] Loyalty 06", "[SwanClub36] Loyalty 36", "Team Moments"];
 
   const filteredImages =
     filter === "All"
