@@ -1,9 +1,9 @@
 import { Anchor } from "lucide-react";
-import ASL  from "@/assets/ALEXLEAL.jpg";
+import ASL from "@/assets/ASL.jpg";
 
 const Team = () => {
   const teamMembers = [
-    { name: "Alexandre Leal", role: "Skipper/Captain", status: "Current", avatarSrc: ASL },
+    { name: "Alexandre Leal", role: "Skipper/Captain", status: "Current", avatarSrc: ASL, },
     { name: "André 'Bochecha' Fonseca", role: "Tactician" },
     { name: "Gabriel Ribeiro", role: "Trimmer"},
     { name: "Isaque Soares", role: "Bowman"},
@@ -31,7 +31,8 @@ const Team = () => {
               key={index}
               className="group relative bg-card rounded-lg border border-border p-8 text-center hover:border-primary/50 transition-all duration-500 hover:shadow-glow"
             >
-              {member.avatarSrc ? (
+              <div className="w-20 h-20 rounded-full bg-gradient-ocean mx-auto mb-6 flex items-center justify-center overflow-hidden">
+                {member.avatarSrc ? (
                   <img
                     src={member.avatarSrc}
                     alt={`${member.name} avatar`}
@@ -41,7 +42,7 @@ const Team = () => {
                 ) : (
                   <Anchor className="w-8 h-8 text-primary-foreground" />
                 )}
-               </div>
+              </div>
       
               <h4 className="text-xl font-bold text-foreground mb-1">
                 {member.name}
