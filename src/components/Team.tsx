@@ -2,7 +2,7 @@ import { Anchor } from "lucide-react";
 
 const Team = () => {
   const teamMembers = [
-    { name: "Alexandre Leal", role: "Skipper/Captain" },
+    { name: "Alexandre Leal", role: "Skipper/Captain", status: Current },
     { name: "André 'Bochecha' Fonseca", role: "Tactician" },
     { name: "Gabriel Ribeiro", role: "Trimmer" },
     { name: "Isaque Soares", role: "Bowman" },
@@ -37,6 +37,9 @@ const Team = () => {
               </h4>
               <p className="text-sm font-semibold uppercase tracking-wider text-primary">
                 {member.role}
+              </p>
+               <p className="text-sm font-semibold uppercase tracking-wider text-primary">
+                {member.status}
               </p>
             </div>
           ))}
