@@ -38,7 +38,7 @@ const Team = () => {
               <p className="text-sm font-semibold uppercase tracking-wider text-primary">
                 {member.role}
               </p>
-               <p className="text-xs font-thin-text italic uppercase tracking-wider text-primary">
+               <p className="text-xs font-thin-text italic uppercase tracking-wider text-secondary">
                 {member.status}
               </p>
             </div>
