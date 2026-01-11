@@ -15,12 +15,12 @@ const galleryImages = [
   },
   {
     src: gallerySunset,
-    title: "Cutting Through Waves",
+    title: "Morning Preparations",
     category: "[C30] Loyalty 06",
   },
   {
     src: galleryPrep,
-    title: "Morning Preparations",
+    title: "Cutting Through Waves",
     category: "[C30] Loyalty 06",
   },
   {
