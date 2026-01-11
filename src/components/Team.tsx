@@ -25,7 +25,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -43,16 +43,18 @@ const Team = () => {
                   <Anchor className="w-8 h-8 text-primary-foreground" />
                 )}
               </div>
-      
+
               <h4 className="text-xl font-bold text-foreground mb-1">
                 {member.name}
               </h4>
               <p className="text-sm font-semibold uppercase tracking-wider text-primary">
                 {member.role}
               </p>
-               <p className="text-xs font-thin-text italic uppercase tracking-wider text-tertiary">
-                {member.status}
-              </p>
+              {member.status && (
+                <p className="text-xs font-thin italic uppercase tracking-wider text-tertiary">
+                  {member.status}
+                </p>
+              )}
             </div>
               {/* <div className="w-20 h-20 rounded-full bg-gradient-ocean mx-auto mb-6 flex items-center justify-center">
                 <Anchor className="w-8 h-8 text-primary-foreground" />
