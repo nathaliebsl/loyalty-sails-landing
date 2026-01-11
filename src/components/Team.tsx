@@ -6,7 +6,7 @@ const Team = () => {
     { name: "André 'Bochecha' Fonseca", role: "Tactician" },
     { name: "Gabriel Ribeiro", role: "Trimmer" },
     { name: "Isaque Soares", role: "Bowman" },
-    { name: "Thiago Knippling, role: "Trimmer" },
+    { name: "Thiago Knippling", role: "Trimmer" },
   ];
 
   return (
