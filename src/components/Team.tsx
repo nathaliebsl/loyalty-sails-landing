@@ -1,9 +1,14 @@
 import { Anchor } from "lucide-react";
-import { ASL }  from "@/assets/ALEXLEAL.jpg";
+import ASL  from "@/assets/ALEXLEAL.jpg";
+
+  const avatars = [
+  {
+    src: ASL,
+  },
 
 const Team = () => {
   const teamMembers = [
-    { name: "Alexandre Leal", role: "Skipper/Captain", status: "Current", avatar: ASL },
+    { name: "Alexandre Leal", role: "Skipper/Captain", status: "Current", avatar: avatars.ASL },
     { name: "André 'Bochecha' Fonseca", role: "Tactician", avatar: Anchor },
     { name: "Gabriel Ribeiro", role: "Trimmer", avatar: Anchor },
     { name: "Isaque Soares", role: "Bowman", avatar: Anchor },
