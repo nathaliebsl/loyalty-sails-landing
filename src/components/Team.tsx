@@ -32,7 +32,7 @@ const Team = () => {
               className="group relative bg-card rounded-lg border border-border p-8 text-center hover:border-primary/50 transition-all duration-500 hover:shadow-glow"
             >
               <div className="w-20 h-20 rounded-full bg-gradient-ocean mx-auto mb-6 flex items-center justify-center">
-                <{member.avatar} className="w-8 h-8 text-primary-foreground" />
+                <{member.avatar} //className="w-8 h-8 text-primary-foreground"// />
               </div>
               <h4 className="text-xl font-bold text-foreground mb-1">
                 {member.name}
