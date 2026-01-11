@@ -3,11 +3,11 @@ import ASL from "@/assets/ASL.jpg";
 
 const Team = () => {
   const teamMembers = [
-    { name: "Alexandre Leal", role: "Skipper/Captain", status: "Current", avatarSrc: ASL, },
-    { name: "André 'Bochecha' Fonseca", role: "Tactician" },
-    { name: "Gabriel Ribeiro", role: "Trimmer"},
-    { name: "Isaque Soares", role: "Bowman"},
-    { name: "Thiago Knippling", role: "Trimmer" },
+    { name: "Alexandre Leal", role: "Skipper/Captain", status: "Current", avatar: ASL, },
+    { name: "André 'Bochecha' Fonseca", role: "Tactician", avatar: Anchor, },
+    { name: "Gabriel Ribeiro", role: "Trimmer", avatar: Anchor, },
+    { name: "Isaque Soares", role: "Bowman", avatar: Anchor, },
+    { name: "Thiago Knippling", role: "Trimmer",avatar: Anchor, },
   ];
 
   return (
