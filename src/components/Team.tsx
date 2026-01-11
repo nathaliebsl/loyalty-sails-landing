@@ -16,10 +16,10 @@ const Team = () => {
             The Crew
           </h2>
           <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight mb-6">
-            Meet the <span className="text-gradient-ocean">Team</span>
+            The Team That Built Our <span className="text-gradient-ocean">Legacy</span>
           </h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our world-class crew brings together decades of experience, passion, and an unwavering commitment to excellence.
+            Our world-class crew, including both past and current members, reflects a legacy of shared experience, passion, and an enduring commitment to excellence.
           </p>
         </div>
 
