@@ -11,7 +11,7 @@ const galleryImages = [
   {
     src: galleryRace1,
     title: "Full Speed Ahead",
-    category: "Race Day",
+    category: "[C30] Loyalty 06",
   },
   {
     src: gallerySunset,
@@ -26,7 +26,7 @@ const galleryImages = [
   {
     src: galleryAerial,
     title: "Aerial View",
-    category: "Race Day",
+    category: "[C30] Loyalty 06",
   },
   {
     src: galleryCelebration,
@@ -36,7 +36,7 @@ const galleryImages = [
   {
     src: galleryRace2,
     title: "Cutting Through Waves",
-    category: "Race Day",
+    category: "[C30] Loyalty 06",
   },
 ];
 
@@ -44,7 +44,7 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
   const [filter, setFilter] = useState<string>("All");
 
-  const categories = ["All", "Race Day", "Behind the Scenes", "Team Moments"];
+  const categories = ["All", "[C30] Loyalty 06", "Behind the Scenes", "Team Moments"];
 
   const filteredImages =
     filter === "All"
