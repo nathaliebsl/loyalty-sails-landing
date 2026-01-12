@@ -10,6 +10,7 @@ const Navbar = () => {
     { href: "#achievements", label: "Achievements" },
     { href: "#gallery", label: "Gallery" },
     { href: "#team", label: "Team" },
+    { href: "#calendar", label: "Calendar" }, //new feature (12/01/2016)
     { href: "#contact", label: "Contact" },
   ];
 
