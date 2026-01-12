@@ -12,7 +12,7 @@ const Calendar = () => {
           </p>
         </div>
 
-        {/* ✅ Add to Google Calendar button */}
+        {/* Add to Google Calendar */}
         <div className="mt-6">
           <a
             href={googleCalendarSubscribeUrl}
@@ -24,6 +24,7 @@ const Calendar = () => {
           </a>
         </div>
 
+        {/* Embedded list-style calendar */}
         <div className="mt-8 overflow-hidden rounded-2xl border bg-card shadow-card">
           <iframe
             title="Loyalty Sailing — Competition Calendar"
