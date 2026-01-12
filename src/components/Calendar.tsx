@@ -25,17 +25,17 @@ const Calendar = () => {
         </div>
 
         {/* Embedded list-style calendar */}
-       <iframe
-  title="Loyalty Sailing — Competition Calendar"
-  src="https://calendar.google.com/calendar/embed?mode=AGENDA&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&bgcolor=%23000000&src=76edd04e46086fbeaf143c9a77f3d6e12894cffdf2af564f9ccd1aaad8ed883c%40group.calendar.google.com&ctz=America%2FSao_Paulo"
-  style={{ border: 0 }}
-  width="100%"
-  height="760"
-  frameBorder={0}
-  scrolling="no"
-/>
-        {/* <div className="mt-8 overflow-hidden rounded-2xl border bg-card shadow-card">
-          <iframe
+       <div className="mt-8 overflow-hidden rounded-2xl border bg-card shadow-card">
+             <iframe
+      title="Loyalty Sailing — Competition Calendar"
+      src="https://calendar.google.com/calendar/embed?mode=AGENDA&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&bgcolor=%23000000&src=76edd04e46086fbeaf143c9a77f3d6e12894cffdf2af564f9ccd1aaad8ed883c%40group.calendar.google.com&ctz=America%2FSao_Paulo"
+      style={{ border: 0 }}
+      width="100%"
+      height="760"
+      frameBorder={0}
+      scrolling="no"
+    />
+         {/*   <iframe
             title="Loyalty Sailing — Competition Calendar"
             src="https://calendar.google.com/calendar/embed?mode=AGENDA&src=76edd04e46086fbeaf143c9a77f3d6e12894cffdf2af564f9ccd1aaad8ed883c%40group.calendar.google.com&ctz=America%2FSao_Paulo"
             style={{ border: 0 }}
