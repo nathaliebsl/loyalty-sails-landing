@@ -1,6 +1,6 @@
 const Calendar = () => {
   const googleCalendarSubscribeUrl =
-    "https://calendar.google.com/calendar/u/3?cid=OGEyNDZiMDg5NmJhMDliOTc3YzY1NWU0MjBkYTM3ZjcyOTdmZmY1NTFjM2M5N2Y1OTVkMzI4YTZjOGZkZWFjZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t";
+    "https://calendar.google.com/calendar/u/0?cid=NzZlZGQwNGU0NjA4NmZiZWFmMTQzYzlhNzdmM2Q2ZTEyODk0Y2ZmZGYyYWY1NjRmOWNjZDFhYWFkOGVkODgzY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t";
 
   return (
     <section id="calendar" className="scroll-mt-24 py-24">
